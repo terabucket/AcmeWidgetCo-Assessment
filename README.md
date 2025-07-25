@@ -5,7 +5,9 @@ This is a proof-of-concept for Acme Widget Co’s new sales system. It calculate
 ## Features
 
 • Add products to the basket.
+
 • Compute total including special offers.
+
 • Tiered delivery charges:
 
 - Orders under $50 cost $4.95
@@ -37,11 +39,15 @@ This is a proof-of-concept for Acme Widget Co’s new sales system. It calculate
 4. How to Run
 
 • Clone or download this repository.
+
 • Run “bundle install” if you choose to use bundler for RSpec (optional).
+
 • Run “ruby main.rb” to see example outputs.
+
 • Run “rspec spec” if you’d like to execute the test suite.
 
 5. Assumptions
 
 • The basket has only one current offer: buy one red widget, get the second half-price. Additional or different offers would require only writing a new OfferStrategy class (e.g., “Buy2Get1Free”).
+
 • Delivery logic is likewise encapsulated in a strategy class. If you need to change the rules or add new thresholds, create or modify a new DeliveryStrategy class.

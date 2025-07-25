@@ -16,6 +16,8 @@ This is a proof-of-concept for Acme Widget Co’s new sales system. It calculate
 
 • Special Offer: Buy one Red Widget (R01), get the second half price.
 
+<img width="570" height="253" alt="Screenshot 2025-07-25 at 7 16 10 AM" src="https://github.com/user-attachments/assets/336fce85-4cf6-4e41-b016-60aafb6ee9a5" />
+
 ## Architecture and Approach
 
 1. Data Modeling
